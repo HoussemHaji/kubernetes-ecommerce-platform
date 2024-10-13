@@ -1,6 +1,7 @@
 # Kubernetes E-commerce Platform
 
-This project demonstrates an advanced Kubernetes deployment of a microservices-based e-commerce platform. It showcases various Kubernetes concepts and best practices, making it suitable for learning and as a portfolio piece.
+This project demonstrates an advanced Kubernetes deployment of a microservices-based e-commerce platform. It showcases various Kubernetes concepts and best practices.
+
 
 ## Architecture
 
