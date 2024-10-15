@@ -25,4 +25,3 @@ app.get('/products/:id', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Product Catalog Service listening at http://localhost:${port}`);
-});
