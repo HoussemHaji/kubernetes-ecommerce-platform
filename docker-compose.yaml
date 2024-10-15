@@ -1,0 +1,37 @@
+version: '3'
+services:
+  product-catalog:
+    image: product-catalog-service:v1
+    ports:
+      - "3000:3000"
+  user-auth:
+    image: user-auth:v1
+    ports:
+      - "3001:3001"
+  shopping-cart:
+    image: shop-cart:v1
+    ports:
+      - "3002:3002"
+  order-processing:
+    image: order-proc:v1
+    ports:
+      - "3003:3003"
+  payment-gateway:
+    image: payment-gateway:v1
+    ports:
+      - "3004:3004"
+  recommendation:
+    image: recommendation:v1
+    ports:
+      - "3005:3005"
+  frontend:
+    image: frontend:v1
+    ports:
+      - "80:80"
+    depends_on:
+      - product-catalog
+      - user-auth
+      - shopping-cart
+      - order-processing
+      - payment-gateway
+      - recommendation
