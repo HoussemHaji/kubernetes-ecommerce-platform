@@ -29,7 +29,6 @@ The e-commerce platform consists of the following microservices:
 - Docker
 - kubectl
 - minikube or kind
-- Helm
 - Git
 
 ## Getting Started
