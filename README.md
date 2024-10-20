@@ -20,8 +20,6 @@ The e-commerce platform consists of the following microservices:
 - Microservices architecture
 - Kubernetes deployment
 - Scalability and high availability
-- Monitoring and logging
-- CI/CD pipeline
 - Security best practices
 
 ## Prerequisites
